@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recomendação de Filmes</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Recomendação de Filmes</h1>
+    </header>
+    <main>
+        <div class="dados">
+            <picture>
+                <img src="imgs/Base de Dados.jpg" alt="Base de Dados">
+            </picture>
+        </div>
+        <div class="grafico">
+            <picture>
+                <img src="imgs/Gráfico de Dispersão dos Usuários e Filmes.jpg" alt="Gráfico">
+            </picture>
+        </div>
+        <div class="formula">
+            <picture>
+                <img src="imgs/Distancia Euclidiana.jpg" alt="Formula">
+            </picture>
+        </div>
+        <div class="ana-x-claudia">
+            <picture>
+                <img src="imgs/Ana-x-Claudia.jpg" alt="Ana-x-Claudia">
+            </picture>
+        </div>
+        <div class="ana-x-marcos">
+            <picture>
+                <img src="imgs/Ana-x-Marcos.jpg" alt="Ana-x-Marcos">
+            </picture>
+        </div>
+        <div class="ana-x-leo">
+            <picture>
+                <img src="imgs/Ana-x-Leo.jpg" alt="Ana-x-Leo">
+            </picture>
+        </div>
+        <div class="similaridade-ana">
+            <h3>Similaridade Ana</h3>
+            <p>Pedro = 0.47</p>
+            <p>Adriano = 0.41</p>
+            <p>Claudia = 0.38</p>
+            <p>Leonardo = 0.34</p>
+            <p>Janaina = 0.34</p>
+            <p>Marcos = 0.29</p>
+        </div>
+        <div class="similaridade-Pedro">
+            <h3>Similaridade Pedro</h3>
+            <p>Adriano = 0.38</p>
+            <p>Ana = 0.47</p>
+            <p>Claudia = 0.53</p>
+            <p>Leonardo = 0.38</p>
+            <p>Janaina = 0.32</p>
+            <p>Marcos = 0.34</p>
+        </div>
+        <div class="similaridade-Adriano">
+            <h3>Similaridade Adriano</h3>
+            <p>Ana = 0.41</p>
+            <p>Pedro = 0.38</p>
+            <p>Leonardo = 0.4</p>
+            <p>Claudia = 0.31</p>
+            <p>Marcos = 0.27</p>
+            <p>Janaina = 0.28</p>
+        </div>
+        <div class="similaridade-Leonardo">
+            <h3>Similaridade Leonardo</h3>
+            <p>Ana = 0.34</p>
+            <p>Pedro = 0.38</p>
+            <p>Janaina = 0.26</p>
+            <p>Marcos = 0.25</p>
+            <p>Claudia = 0.35</p>
+            <p>Adriano = 0.4</p>
+        </div>
+        <div class="similaridade-Janaina">
+            <h3>Similaridade Janaina</h3>
+            <p>Ana = 0.34</p>
+            <p>Pedro = 0.32</p>
+            <p>Leonardo = 0.26</p>
+            <p>Marcos = 0.66</p>
+            <p>Adriano = 0.28</p>
+            <p>Claudia = 0.32</p>
+        </div>
+        <div class="similaridade-Marcos">
+            <h3>Similaridade Marcos</h3>
+            <p>Ana = 0.29</p>
+            <p>Janaina = 0.66</p>
+            <p>Leonardo = 0.25</p>
+            <p>Claudia = 0.28</p>
+            <p>Adriano = 0.27</p>
+            <p>Pedro = 0.34</p>
+        </div>
+        <div class="similaridade-Claudia">
+            <h3>Similaridade Claudia</h3>
+            <p>Ana = 0.38</p>
+            <p>Leonardo = 0.35</p>
+            <p>Marcos = 0.28</p>
+            <p>Pedro = 0.53</p>
+            <p>Adriano = 0.31</p>
+            <p>Janaina = 0.32</p>
+        </div>
+        <section class="recomendacao">
+            <div class="recomendacao-leo">
+                <picture>
+                    <img src="imgs/Recomendacao Leo.jpg" alt="Recomendacao Leo" id="reco-leo">
+                    <h2>Recomendação Leonardo</h2>
+                    <p>Star Wars = 3.4</p>
+                    <p>Star Trek = 2.4</p>
+                    <p>Freddy x Jason = 2.77</p>
+                </picture>
+            </div>
+            <div class="recomendacao-janaina">
+                <h2>Recomendação Janaina</h2>
+                <p>Star Trek = 2.20</p>
+            </div>
+            <div class="recomendacao-claudia">
+                <h2>Recomendação Claudia</h2>
+                <p>Freddy x Jason = 2.74</p>
+            </div>
+            <div class="recomendacao-pedro">
+                <h2>Recomendação Pedro</h2>
+                <p>Star Trek = 2.48</p>
+                <p>Norbit = 2.45</p>
+            </div>
+        </section>
+        <div class="resultado">
+            <h3>Se a nota for maior do que 2.5, o sistema irá recomendar o filme.</h3>
+        </div>
+    </main>
+    <footer>
+        <h4>Feito por Jose Augusto</h4>
+    </footer>
+</body>
+</html>
