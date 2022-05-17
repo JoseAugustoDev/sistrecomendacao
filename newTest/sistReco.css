@@ -21,30 +21,16 @@ header {
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.simil {
-    display: flex;
-}
-
-.recomendacao {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 81vh;
 }
 
 div {
-    margin: 50px;
-}
-
-main img {
-    width: 40vw;
-    height: 100%;
+    margin: 15px;
 }
 
 footer {
